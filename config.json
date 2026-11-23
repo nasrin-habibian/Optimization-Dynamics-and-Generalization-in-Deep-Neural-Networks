@@ -1,0 +1,13 @@
+{
+  "seeds": [11, 22, 33],
+  "noise_levels": [0.15, 0.25],
+  "n_samples": 1200,
+  "test_fraction": 0.25,
+  "epochs": 80,
+  "batch_size": 64,
+  "hidden_dim": 32,
+  "learning_rates": {"sgd": 0.05, "momentum": 0.03, "adamw": 0.003, "lbfgs": 0.8},
+  "weight_decay": 0.0001,
+  "output_dir": "results",
+  "device": "cpu"
+}
